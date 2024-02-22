@@ -6,12 +6,14 @@
 # print(num1 + num2)
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-numero1 = int(input("Digite o primeiro número: "))
-resto = numero1 % 5
-print(f"O resto de {numero1} dividido por 5 é: {resto}")
+# numero1 = int(input("Digite o primeiro número: "))
+# resto = numero1 % 5
+# print(f"O resto de {numero1} dividido por 5 é: {resto}")
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-
+n1 = int(input("Digite o 1º número: "))
+n2 = int(input("Digite o 2º número: "))
+print(n1 * n2)
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
