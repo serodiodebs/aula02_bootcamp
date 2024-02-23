@@ -72,15 +72,27 @@
 # print(f"Ano: {data_splitada[2]}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
-palavra1 = input("Digite uma palavra: ")
-palavra2 = input("Digite mais uma palavra: ")
+# palavra1 = input("Digite uma palavra: ")
+# palavra2 = input("Digite mais uma palavra: ")
 
-print(f"Você digitou as palavras: {palavra1+palavra2}")
+# print(f"Você digitou as palavras: {palavra1+palavra2}")
 
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+ex1 = bool(input("True ou False? "))
+ex2 = bool(input("True ou False? "))
+
+print(f"O AND lógico é {ex1 and ex2}")
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
