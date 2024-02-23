@@ -42,11 +42,12 @@
 # print(base ** expoente)
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-celsius = float(input("Digite a temperatura em graus Celsius: "))
-print(f"{celsius} graus Celsius em Fahrenheit é: {(celsius * 1.8) + 32}")
+# celsius = float(input("Digite a temperatura em graus Celsius: "))
+# print(f"{celsius} graus Celsius em Fahrenheit é: {(celsius * 1.8) + 32}")
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
-
+raio = float(input("Digite o Raio: "))
+print(3.14*(raio**2))
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
