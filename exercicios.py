@@ -80,13 +80,16 @@
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+# ex1 = bool(input("True ou False? "))
+# ex2 = bool(input("True ou False? "))
+
+# print(f"O AND lógico é {ex1 and ex2}")
+
+# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 ex1 = bool(input("True ou False? "))
 ex2 = bool(input("True ou False? "))
 
-print(f"O AND lógico é {ex1 and ex2}")
-
-# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-
+print(f"O OR lógico é {ex1 or ex2}")
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 
